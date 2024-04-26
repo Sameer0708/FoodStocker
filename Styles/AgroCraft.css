@@ -1,0 +1,74 @@
+
+body {
+	background-image:url(../images/mainboard2.png); 
+	background-repeat:no-repeat;
+	/*background-position: center center;*/
+	text-align: center;
+	background-size:100% 100%;
+	background-attachment: fixed;
+}
+
+#WELCOME{
+	font-size: 70px;
+	font-family: 'Cormorant Infant', serif;
+	font-weight:500;
+	font-family: 'Cormorant Infant', serif;
+	margin-top: 8%;
+	/* padding: 2%; */
+	opacity: 75%;
+	text-shadow: 2px 2px black;
+	}
+ 
+#are{
+	font-family: 'Cormorant Infant', serif;
+	font-weight: 500;
+	opacity: 100%;
+	padding-top: 1%;	
+	font-size:70px;
+	text-shadow: 2px 2px black;
+}
+
+#linebreak{
+	display:block;
+	margin-bottom: 0.5em;
+}
+
+ #Farmerbutton{
+	align-items: center;
+	background-color:transparent;
+	font-size: 90px;
+	border-style:solid;
+	border-width: 5px;
+	border-radius: 20%;
+	border-color:black;
+}
+
+#Buyerbutton{
+	align-items: center;
+	background-color:transparent;
+	font-size: 90px;
+	margin-left: 10%;
+	border-style:solid;
+	border-width: 5px;
+	border-radius: 20%;
+	border-color:black;
+}
+
+#link {
+	color:black;
+	text-decoration: none;
+}
+
+#link:hover{
+	color: rgb(155, 248, 4);
+	border-radius: 20%;
+	border-style: outset;
+	border-color: rgb(155, 248, 4);
+    font-weight: bolder;
+	border-width: 4px;
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+	#WELCOME{
+		padding: 30pc 0px;
+	}
+}
